@@ -62,7 +62,7 @@ ggplot(data = flights,
 ggplot(data = flights,
        aes(x = dep_delay,
            y = arr_delay)) +
-  geom_point(aes(color = "species"))
+  geom_point(aes(color=origin))
 ```
 
 # Step 5: Recreate the Figure but Change Default "color" of Points by Adding a Palette Layer
