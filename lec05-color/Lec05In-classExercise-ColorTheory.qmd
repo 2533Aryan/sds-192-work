@@ -108,7 +108,8 @@ Add a palette layer of your choice. To determine how to do this, direct your att
 ggplot(data = flights, 
        aes(x = carrier, 
            fill = origin)) +
-  geom_bar(position = position_dodge(preserve = "single"))
+  geom_bar(position = position_dodge(preserve = "single")) +
+  scale_fill_manual(values = c("black","purple","yellow"))
 
 ```
 
@@ -123,7 +124,8 @@ Manually change colors of your choice. To determine how to do this, direct your 
 ggplot(data = flights, 
        aes(x = carrier, 
            fill = origin)) +
-  geom_bar(position = position_dodge(preserve = "single"))
+  geom_bar(position = position_dodge(preserve = "single")) +
+  scale_fill_manual(values = c("black","purple","yellow"))
 
 ```
 
