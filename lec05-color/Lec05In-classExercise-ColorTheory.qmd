@@ -109,7 +109,7 @@ ggplot(data = flights,
        aes(x = carrier, 
            fill = origin)) +
   geom_bar(position = position_dodge(preserve = "single")) +
-  scale_fill_manual(values = c("black","purple","yellow"))
+  scale_fill_brewer(palette = "Spectral")
 
 ```
 
