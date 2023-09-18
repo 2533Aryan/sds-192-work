@@ -36,13 +36,12 @@ library(nycflights13)
 ```{r}
 # Write your code below
 flights
-?flights
 
 ```
 
 ```{r}
 # Write your code below
-
+?flights
 ```
 
 # Scatterplot
