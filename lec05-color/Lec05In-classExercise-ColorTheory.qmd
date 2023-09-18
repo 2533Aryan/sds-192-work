@@ -149,8 +149,8 @@ Finally just because we mentioned it in the Facet lecture. Add a facet_wrap(face
 ggplot(data = flights, 
        aes(x = carrier, 
            fill = origin)) +
-  geom_bar(position = position_dodge(preserve = "single"))
- 
+  geom_bar(position = position_dodge(preserve = "single")) +
+  facet_wrap(facets=~origin)
 
 ```
 
