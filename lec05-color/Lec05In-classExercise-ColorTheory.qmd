@@ -136,8 +136,8 @@ ggplot(data = flights,
 ggplot(data = flights, 
        aes(x = carrier, 
            fill = origin)) +
-  geom_bar(position = position_dodge(preserve = "single"))
- 
+  geom_bar(position = position_dodge(preserve = "single")) +
+  scale_fill_manual(values = c("#9a5af2","#a0db8e","#f4376d"))
 
 ```
 
