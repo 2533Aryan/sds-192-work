@@ -1,6 +1,7 @@
 
 ---
 title: "Lec 05: In-class Exercise: Color Theory"
+author: "Aryan"
 output:
   html_document
 ---
