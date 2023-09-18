@@ -62,7 +62,8 @@ Note: That when mapping categorical variables we use scale\_\*\_brewer(). For nu
 
 penguins |>
   ggplot(mapping = aes(x=sex,fill=island)) + 
-  geom_bar() 
+  geom_bar() +
+  scale_fill_brewer(palette = "Spectral")
 
   
 ```
