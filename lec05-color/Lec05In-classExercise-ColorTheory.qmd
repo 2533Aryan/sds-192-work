@@ -81,7 +81,11 @@ There are three types of color palettes that can be added to a plot:
 
 ```{r}
 # Paste the code below and adjust it
-
+ggplot(data = flights,
+       aes(x = dep_delay,
+           y = arr_delay)) +
+  geom_point(aes(color=origin)) +
+  scale_color_brewer(palette="Dark2")
 ```
 
 # Barplot
