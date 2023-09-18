@@ -75,7 +75,8 @@ We can also set the colors manually with scale\_\*\_manual(values = c("Color cod
 penguins |>
   ggplot(mapping = aes(x=sex,fill=island)) + 
   geom_bar() +
-  scale_fill_manual(values = c("black","purple","yellow"))
+  scale_fill_manual(values = c("black","purple","yellow"))+
+  facet_wrap(facet=vars(year))
 
 #type colors() into the console
 # Go to https://www.color-hex.com/# to make your own palettes
