@@ -109,3 +109,9 @@ ggplot(ChickWeight, aes(x=Time, y=Weight)) +
   geom_point() +
   geom_smooth(method = "loess")
 ```
+
+```{r}
+ggplot(ChickWeight, aes(x=Time, y=Weight)) +
+  geom_point() +
+  geom_smooth(method = "gam")
+```
