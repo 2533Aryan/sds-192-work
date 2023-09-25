@@ -70,3 +70,9 @@ new_title <- c("Weight","Time","Chick","Diet")
 names(ChickWeight) <- new_title
 ChickWeight
 ```
+
+```{r}
+# Change title without manually changing each one of them
+names(ChickWeight)[1] <- "Weight"
+ChickWeight
+```
