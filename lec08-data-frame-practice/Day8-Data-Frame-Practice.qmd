@@ -1,0 +1,9 @@
+---
+title: "Day8-Data-Frame-Practice"
+format: html
+editor: visual
+---
+
+```{r}
+date
+```
