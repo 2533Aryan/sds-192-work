@@ -59,14 +59,17 @@ ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
 # Paste the code below and adjust it
 ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
   geom_point() +
-  geom_smooth()
+  geom_smooth(method = "loess")
 
 ``` 
 
 # Step 5: Remove Standard Error Bars by Setting `se = FALSE`
 
 ```{r}
-# Paste the code below and adjust it
+# Paste the code below and adjust 
+ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
+  geom_point() +
+  geom_smooth(method = "loess", se=FALSE)
 
 ``` 
 
