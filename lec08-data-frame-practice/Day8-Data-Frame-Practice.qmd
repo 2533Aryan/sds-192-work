@@ -18,3 +18,9 @@ unique(weather)
 weather_in_noho <- data.frame(date, weather,temp)
 weather_in_noho
 ```
+
+```{r}
+weather_in_noho$date
+mean(weather_in_noho$date)
+table(weather_in_noho$weather, weather_in_noho$temp)
+```
