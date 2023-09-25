@@ -29,3 +29,21 @@ mean(weather_in_noho$date)
 # Table
 table(weather_in_noho$weather, weather_in_noho$temp)
 ```
+
+```{r}
+library(tidyverse)
+
+glimpse(weather_in_noho)
+```
+
+```{r}
+head(weather_in_noho)
+
+tail(weather_in_noho)
+
+nrow(weather_in_noho)
+
+ncol(weather_in_noho)
+
+names(weather_in_noho)
+```
