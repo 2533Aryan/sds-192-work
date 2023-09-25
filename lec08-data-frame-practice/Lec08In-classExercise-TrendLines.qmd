@@ -59,6 +59,7 @@ ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
 # Paste the code below and adjust it
 ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
   geom_point() +
+  labs(x="GDP per capita", y="Life expectancy") +
   geom_smooth(method = "loess")
 
 ``` 
@@ -69,6 +70,7 @@ ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
 # Paste the code below and adjust 
 ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
   geom_point() +
+  labs(x="GDP per capita", y="Life expectancy") +
   geom_smooth(method = "loess", se=FALSE)
 
 ``` 
@@ -79,6 +81,7 @@ ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
 # Paste the code below and adjust it
 ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
   geom_point() +
+  labs(x="GDP per capita", y="Life expectancy") +
   geom_smooth(method = "loess", se=FALSE, span = 0.1)
 
 ``` 
@@ -89,6 +92,7 @@ ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
 # Paste the code below and adjust it
 ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
   geom_point() +
+  labs(x="GDP per capita", y="Life expectancy") +
   geom_smooth(method = "lm", se=FALSE)
 
 ``` 
