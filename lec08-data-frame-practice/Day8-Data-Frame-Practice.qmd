@@ -43,11 +43,13 @@ head(weather_in_noho)
 # Last few rows
 tail(weather_in_noho)
 
-#
+# Number of rows
 nrow(weather_in_noho)
 
+# Number of columns
 ncol(weather_in_noho)
 
+# Column names
 names(weather_in_noho)
 ```
 
