@@ -76,3 +76,8 @@ ChickWeight
 names(ChickWeight)[1] <- "Weight"
 ChickWeight
 ```
+
+```{r}
+# Get Metadata
+?ChickWeight
+```
