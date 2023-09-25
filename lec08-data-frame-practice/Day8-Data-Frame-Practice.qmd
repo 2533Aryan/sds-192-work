@@ -97,7 +97,8 @@ ggplot(ChickWeight, aes(x=Time, y=Weight)) +
 ```
 
 ```{r}
+# Linear Regression (lm) where se is off (error distortion is off)
 ggplot(ChickWeight, aes(x=Time, y=Weight)) +
   geom_point() +
-  geom_smooth(method = "lm")
+  geom_smooth(method = "lm", se=FALSE)
 ```
