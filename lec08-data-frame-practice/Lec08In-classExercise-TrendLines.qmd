@@ -25,6 +25,7 @@ The `gapminder` package includes a data frame called `gapminder`, containing inf
 
 ```{r}
 # Write your code below
+gapminder
 
 ```
 
@@ -47,6 +48,8 @@ This data is in fact the same data as in Table 2.1 of ModernDive.
 
 ```{r}
 # Write your code below
+ggplot(gapminder_2007, aes(x=gdpPercap, y=lifeExp)) +
+  geom_point()
 
 ```
 
