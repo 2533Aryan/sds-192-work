@@ -9,3 +9,8 @@ date <- c(9,10,11,12,13,14,15)
 weather <- c("sunny","hot","hot","rain","cloudy","cool","hail")
 temp <- c(73,100,105,65,50,65,40)
 ```
+
+```{r}
+unique(weather)
+```
+
