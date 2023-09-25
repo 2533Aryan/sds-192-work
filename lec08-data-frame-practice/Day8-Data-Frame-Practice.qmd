@@ -37,13 +37,23 @@ glimpse(weather_in_noho)
 ```
 
 ```{r}
+# First few rows
 head(weather_in_noho)
 
+# Last few rows
 tail(weather_in_noho)
 
+#
 nrow(weather_in_noho)
 
 ncol(weather_in_noho)
 
+names(weather_in_noho)
+```
+
+```{r}
+# Change column names
+new_names <- c("DATE", "WEATHER", "TEMP")
+names(weather_in_noho) <- new_names
 names(weather_in_noho)
 ```
