@@ -85,3 +85,19 @@ ChickWeight
 # Get Metadata
 ?ChickWeight
 ```
+
+```{r}
+glimpse(ChickWeight)
+```
+
+```{r}
+# Scatter Plot
+ggplot(ChickWeight, aes(x=Time, y=Weight)) +
+  geom_point()
+```
+
+```{r}
+ggplot(ChickWeight, aes(x=Time, y=Weight)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
