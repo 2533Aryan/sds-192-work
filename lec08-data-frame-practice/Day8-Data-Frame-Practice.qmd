@@ -20,7 +20,12 @@ weather_in_noho
 ```
 
 ```{r}
+# View "date" from data frame
 weather_in_noho$date
+
+# Calculate mean
 mean(weather_in_noho$date)
+
+# Table
 table(weather_in_noho$weather, weather_in_noho$temp)
 ```
